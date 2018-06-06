@@ -1,8 +1,11 @@
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main(int argc,char** argv){
-	
-	std::cout << "Hello World";
-
+	string inputstr;
+	std::cout << "Bitte Namen eingeben:";
+	getline(cin,inputstr);
+	std::cout << "Hallo " << inputstr;
 	return 0;
 }
