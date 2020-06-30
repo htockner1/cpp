@@ -1,1 +1,4 @@
 Hello_World.exe
+*.o
+*.x
+*.exe
